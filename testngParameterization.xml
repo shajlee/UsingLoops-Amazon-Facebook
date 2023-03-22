@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="url" value="https://facebook.com"/>
+  <parameter name="userfirstname" value="Raven"/>
+  <parameter name="userlastname" value="Man"/>
+  <parameter name="useremail" value="chowdhurygs@rediffmail.com"/>
+  <parameter name="useremailconfirmation" value="chowdhurygs@rediffmail.com"/>
+  <parameter name="userpassword" value="Shajlee1234"/>
+  <parameter name="gender" value="nonbinary"/>
+    <classes>
+      <class name="UsingLoops.FaceBook_CreateAnAccount_DropDown_UsingLoops"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

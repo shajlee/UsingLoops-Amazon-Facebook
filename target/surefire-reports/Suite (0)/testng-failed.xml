@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="password" value="Shajlee1@"/>
+    <parameter name="item" value="Drum Sticks"/>
+    <parameter name="url" value="https://amazon.com"/>
+    <parameter name="username" value="chowdhurygs@rediffmail.com"/>
+    <classes>
+      <class name="UsingLoops.Amazon_UsingLoops">
+        <methods>
+          <include name="chooseItem1"/>
+          <include name="openSignTab"/>
+          <include name="passWord"/>
+          <include name="launchUrl"/>
+          <include name="addToCart"/>
+          <include name="clickOnHomeButton"/>
+          <include name="itemSize"/>
+          <include name="searchItem"/>
+          <include name="signOut"/>
+          <include name="userName"/>
+        </methods>
+      </class> <!-- UsingLoops.Amazon_UsingLoops -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

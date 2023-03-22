@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T22:32:30 PDT" name="Suite" finished-at="2023-03-21T22:32:54 PDT" duration-ms="24418">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T22:32:30 PDT" name="Test" finished-at="2023-03-21T22:32:54 PDT" duration-ms="24418">
+      <class name="UsingLoops.Amazon_UsingLoops">
+        <test-method is-config="true" signature="launchUrl(java.lang.String)[pri:0, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:30 PDT" name="launchUrl" finished-at="2023-03-21T22:32:35 PDT" duration-ms="5199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="openSignTab()[pri:1, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:35 PDT" name="openSignTab" finished-at="2023-03-21T22:32:36 PDT" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignTab -->
+        <test-method signature="userName(java.lang.String)[pri:2, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:36 PDT" name="userName" finished-at="2023-03-21T22:32:36 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.openSignTab" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName -->
+        <test-method signature="passWord(java.lang.String)[pri:3, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:36 PDT" name="passWord" finished-at="2023-03-21T22:32:37 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.userName" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passWord -->
+        <test-method signature="searchItem(java.lang.String)[pri:4, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:37 PDT" name="searchItem" finished-at="2023-03-21T22:32:40 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.passWord, UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.userName" duration-ms="3829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drum Sticks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="chooseItem1()[pri:5, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:40 PDT" name="chooseItem1" finished-at="2023-03-21T22:32:44 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.passWord, UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.searchItem, UsingLoops.Amazon_UsingLoops.userName" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseItem1 -->
+        <test-method signature="itemSize()[pri:6, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:44 PDT" name="itemSize" finished-at="2023-03-21T22:32:44 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.passWord, UsingLoops.Amazon_UsingLoops.chooseItem1, UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.searchItem, UsingLoops.Amazon_UsingLoops.userName" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemSize -->
+        <test-method signature="addToCart()[pri:7, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:44 PDT" name="addToCart" finished-at="2023-03-21T22:32:48 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.passWord, UsingLoops.Amazon_UsingLoops.chooseItem1, UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.searchItem, UsingLoops.Amazon_UsingLoops.itemSize, UsingLoops.Amazon_UsingLoops.userName" duration-ms="3909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="clickOnHomeButton()[pri:8, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:48 PDT" name="clickOnHomeButton" finished-at="2023-03-21T22:32:49 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.passWord, UsingLoops.Amazon_UsingLoops.chooseItem1, UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.searchItem, UsingLoops.Amazon_UsingLoops.addToCart, UsingLoops.Amazon_UsingLoops.itemSize, UsingLoops.Amazon_UsingLoops.userName" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHomeButton -->
+        <test-method signature="signOut()[pri:9, instance:UsingLoops.Amazon_UsingLoops@74e28667]" started-at="2023-03-21T22:32:49 PDT" name="signOut" finished-at="2023-03-21T22:32:54 PDT" depends-on-methods="UsingLoops.Amazon_UsingLoops.passWord, UsingLoops.Amazon_UsingLoops.chooseItem1, UsingLoops.Amazon_UsingLoops.clickOnHomeButton, UsingLoops.Amazon_UsingLoops.openSignTab, UsingLoops.Amazon_UsingLoops.searchItem, UsingLoops.Amazon_UsingLoops.addToCart, UsingLoops.Amazon_UsingLoops.itemSize, UsingLoops.Amazon_UsingLoops.userName" duration-ms="4931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+      </class> <!-- UsingLoops.Amazon_UsingLoops -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
